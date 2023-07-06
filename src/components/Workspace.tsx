@@ -17,7 +17,7 @@ export default function Workspace({
       <div className={"rounded-xl bg-white px-5 pt-10 shadow-md"}>
         <Editor
           blob={blob}
-          autoSaveTimeout={5000}
+          autoSaveTimeout={30000}
           onImageSelected={onImageSelected}
           onSave={onSave}
         />
